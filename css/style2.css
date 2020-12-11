@@ -1,0 +1,227 @@
+@media (max-width: 768px){
+  body{
+    margin:0;
+    padding:0;
+  }
+  .parallax {
+    /* The image used */
+    background-image: url("../images/srb5.jpg");
+
+    /* Set a specific height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .btn-resume{
+  font-family:BankGothic;
+  margin-left:60%;
+  }
+
+  .btn-home{
+  margin-left:30px;
+  background:#17202A;
+  color:snow;
+  z-index: 9;
+  box-shadow:5px 5px 5px black;
+  }
+
+ .div2{
+    background-size:cover;
+    height:100vh;
+  }
+
+  .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .swiper-slide {
+        padding:5px;
+        color:black;
+        font-size: 10px;
+        background:	#D0D3D4;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .parallax input{
+        position:fixed;
+      }
+
+  .hobbies img{
+  height:50px;
+  border-radius: 50%;
+margin-top: 50px;
+  }
+
+
+  .div3{
+  color: snow;
+  background: url("../images/bg10.jpg");
+    height: 150vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*background: -webkit-linear-gradient(45deg,#ffffff,#00dbde);
+  */
+  }
+.project-list{
+  border-bottom:  5px solid black;
+
+}
+  .div3 h1{
+  margin-top:5px;
+  margin-bottom:10px;
+  font-size:3em;
+  color:snow;
+}
+  .div3 input{
+  font-size:.8em;
+  }
+  .div3 .project-list{
+  margin-right: 0;
+  height:60vh;
+  text-shadow: 5px 5px 5px black;
+  }
+
+  .div3 a{
+  color:snow;
+  }
+
+  .div3 a:hover{
+  color:grey;
+  text-decoration: none;
+  }
+  .div3 .project{
+  border-bottom:2px solid snow;
+  }
+
+  .div3 .myprojects{
+  height:80vh;
+  overflow-y: scroll;
+  }
+
+  .div3 ul{
+  font-size: .8em;
+  }
+
+  .div3 .project-list{
+  overflow-y: scroll;
+  }
+
+  .myprojects h2{
+    font-size: 1.2em;
+    padding: 10px;
+    background: #494747;
+    border-radius: 5px;
+    text-shadow: 3px 3px 3px black;
+  }
+
+
+  .myprojects p{
+    padding: 10px;
+    font-size: .8em;
+    background: #494747;
+    border-radius: 5px;
+    text-shadow: 3px 3px 3px black;
+  }
+
+  .div4{
+    padding-top: 20vh;
+  height:100vh;
+  background: url("../images/bg9.jpg");\
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*background: -webkit-linear-gradient(-45deg,#00c6ff,#0072ff);
+  */}
+
+  .div4 h1{
+  margin-top:5  0px;
+  margin-bottom:30px;
+  font-size:1.5em;
+}
+
+  .div4 h2{
+    font-size: 2EM;
+  }
+
+  .div4 ul{
+  list-style: square;
+  padding:20px;
+  font-size:.8em;
+  margin-top: 20px;
+  border-radius: 1px;
+  background: lavender;
+  box-shadow: 5px 5px 5px black;
+  }
+
+  .div4 a{
+  color:black;
+  }
+
+  .div4 a:hover{
+  color:skyblue;
+  text-decoration: none;
+  }
+
+    .div5{
+    background: url("../images/bg11.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    }
+
+    .div5 h1{
+    font-size: 3em;
+    }
+    .div5 h2{
+    font-size: 1.5em;
+    padding:20px;
+    }
+    .div51{
+    padding-top: 10%;
+    padding-left:50px;
+      height:auto;
+      color:snow;
+      text-shadow: 5px 5px 5px black;
+
+      border-bottom: 2px solid black;
+    }
+
+    .div52{
+    padding-top: 10%;
+    padding-left:50px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+      height:auto;
+      text-shadow: 5px 5px 5px black;
+
+    }
+
+
+
+}

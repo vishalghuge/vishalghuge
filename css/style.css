@@ -1,0 +1,246 @@
+body{
+  margin:0;
+  padding:0;
+}
+.parallax {
+  /* The image used */
+  background-image: url("../images/srb3.png");
+
+  /* Set a specific height */
+  height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  .div2{
+  background-size:cover;
+  height:70vh;
+}
+
+.swiper-container {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .swiper-slide {
+      padding:50px;
+      color:black;
+      font-size: 18px;
+      background:	#D0D3D4;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .parallax input{
+      position:fixed;
+    }
+.btn-resume{
+font-family:BankGothic;
+font-size:1em;
+margin-top:20px;
+margin-left:88%;
+float:right;
+  background:#17202A;
+  color:snow;
+  z-index: 9;
+box-shadow:5px 5px 5px black;
+
+}
+
+.btn-home{
+font-family:BankGothic;
+font-size:1em;
+margin-top:20px;
+margin-left:50px;
+  background:#17202A;
+  color:snow;
+  z-index: 9;
+box-shadow:5px 5px 5px black;
+}
+
+.btn:hover{
+background:snow;
+color:black;
+box-shadow:10px 10px 10px black;
+}
+
+.hobbies img{
+height:100px;
+border-radius: 50%;
+}
+
+.div3{
+color: snow;
+background: url("../images/bg8.jpg");
+height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+  text-shadow: 5px 5px 5px black;
+/*background: -webkit-linear-gradient(45deg,#ffffff,#00dbde);
+*/
+}
+
+.div3 h1{
+margin-top:10px;
+margin-bottom:30px;
+font-size:5.3em;
+color:snow;
+font-family:BankGothic;
+text-shadow:2px 2px 5px black;
+}
+.div3 input{
+font-family:BankGothic;
+background: black;
+color:snow;
+box-shadow:5px 5px 5px black;
+font-size:1.2em;
+}
+.div3 .project-list{
+margin-right: 0;
+height:80vh;
+text-shadow: 5px 5px 5px black;
+}
+
+.div3 a{
+color:snow;
+}
+
+.div3 a:hover{
+color:grey;
+text-decoration: none;
+}
+.div3 .project{
+border-bottom:2px solid snow;
+}
+
+.div3 .myprojects{
+height:80vh;
+overflow-y: scroll;
+
+}
+
+  .myprojects p{
+    padding: 20px;
+    box-shadow: 3px 3px 3px black;
+  }
+
+.div3 ul{
+font-size: 1.3em;
+}
+
+.div3 .project-list{
+overflow-y: scroll;
+}
+
+.div4{
+
+height:130vh;
+background-size:cover;
+color: #F4F6F7;
+background: url("../images/bg6.jpg");
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+/*background: -webkit-linear-gradient(-45deg,#00c6ff,#0072ff);
+*/}
+
+.div4 h1{
+margin-top:30px;
+margin-bottom:30px;
+font-size:5em;
+color:snow;
+font-family:BankGothic;
+background: black;
+text-shadow:2px 2px 5px black;
+border-radius: 5px;
+box-shadow: 5px 5px 25px black;
+}
+
+.div4 h2{
+color:black;
+font-family: BankGothic;
+}
+
+.div4 ul{
+list-style: square;
+padding:30px;
+padding-left:150px;
+font-size:1.7em;
+color:snow;
+margin-top: 150px;
+border-radius: 5px;
+background: lavender;
+box-shadow: 5px 5px 5px black;
+}
+
+.div4 a{
+color:black;
+}
+
+.div4 a:hover{
+color:skyblue;
+text-decoration: none;
+}
+
+.div5{
+padding:0;
+font-family:Lucida sans;
+background: url("../images/bg1.jpg");
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.div5 h1{
+font-size: 3em;
+margin-bottom:50px;
+}
+.div5 h2{
+font-size: 1.5em;
+}
+.div51{
+padding-top: 10%;
+padding-left:150px;
+  height:80vh;
+  color:snow;
+
+}
+
+.div52{
+padding-top: 10%;
+padding-left:50px;
+padding-right: 50px;
+  height:80vh;
+color:snow;
+}
+
+.div52 ul{
+  list-style: none;
+  font-size: 2em;
+}
+
+.div52 li{
+float: left; margin-right: 50px;
+}
